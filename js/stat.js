@@ -18,10 +18,10 @@ var renderCloud = function (ctx, x, y, color) {
 };
 
 var getMaxElement = function (arr) {
-  var maxElement = Math.max.apply(Math,arr);
+  var maxElement = Math.max.apply(Math, arr);
 
   return maxElement;
-}
+};
 
 window.renderStatistics = function (ctx, names, times) {
   var maxTime = getMaxElement(times);
